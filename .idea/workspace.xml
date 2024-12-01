@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add nouveau.java class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add Personne.java class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,12 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1732878526860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Personne.java class">
+      <option name="closed" value="true" />
+      <created>1733068787476</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733068787476</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit initial" />
     <MESSAGE value="Add nouveau.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add nouveau.java class" />
+    <MESSAGE value="Add Personne.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Personne.java class" />
   </component>
 </project>

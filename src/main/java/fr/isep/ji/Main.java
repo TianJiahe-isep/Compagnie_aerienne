@@ -5,6 +5,8 @@ package fr.isep.ji;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world");
+        Personne p = new Personne();
+
+        p.obtenirInfos();
     }
 }
