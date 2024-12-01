@@ -2,12 +2,12 @@ package fr.isep.ji;
 
 public class Personne {
 
-    int identifiant;
-    String nom;
-    String adresse;
-    String contact;
+    private final int identifiant;
+    private String nom;
+    private String adresse;
+    private String contact;
 
-    public Personne(int identifiant,String nom, String adresse,String contact){
+    public Personne(int identifiant, String nom, String adresse, String contact){
         this.identifiant = identifiant ;
         this.nom = nom;
         this.adresse = adresse;

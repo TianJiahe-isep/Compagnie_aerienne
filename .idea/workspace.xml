@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add Personne.java class">
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
     </list>
@@ -107,13 +108,29 @@
       <option name="project" value="LOCAL" />
       <updated>1733068787476</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Personne.java class">
+      <option name="closed" value="true" />
+      <created>1733069827662</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733069827662</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Commit initial">
+      <option name="closed" value="true" />
+      <created>1733069855583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733069855584</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit initial" />
     <MESSAGE value="Add nouveau.java class" />
     <MESSAGE value="Add Personne.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Personne.java class" />
+    <MESSAGE value="Commit initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit initial" />
   </component>
 </project>
