@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/nouveau.java" afterDir="false" />
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add nouveau.java class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TianJiahe-isep"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/TianJiahe-isep/Compagnie_aerienne.git",
@@ -44,6 +51,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -75,22 +83,28 @@
       <option name="project" value="LOCAL" />
       <updated>1732876687997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add nouveau.java class">
+      <option name="closed" value="true" />
+      <created>1732878129577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732878129577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add nouveau.java class">
+      <option name="closed" value="true" />
+      <created>1732878526860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732878526860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit initial" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add nouveau.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add nouveau.java class" />
   </component>
 </project>
