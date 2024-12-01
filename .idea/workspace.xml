@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit initial">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit Message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,13 +120,22 @@
       <option name="project" value="LOCAL" />
       <updated>1733069855584</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit Message">
+      <option name="closed" value="true" />
+      <created>1733071074106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071074106</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add nouveau.java class" />
     <MESSAGE value="Add Personne.java class" />
     <MESSAGE value="Commit initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit initial" />
+    <MESSAGE value="Commit Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
   </component>
 </project>
