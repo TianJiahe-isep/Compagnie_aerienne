@@ -12,4 +12,12 @@ public class Employe extends Personne{
             return PersonnelCabine;
         }
     }
+
+    public void affecterVol(){
+
+    }
+
+    public void obtenirVol(){
+
+    }
 }
