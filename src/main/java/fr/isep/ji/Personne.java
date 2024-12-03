@@ -2,7 +2,7 @@ package fr.isep.ji;
 
 public class Personne {
 
-    private final int identifiant;
+    private int identifiant;
     private String nom;
     private String adresse;
     private String contact;

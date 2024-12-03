@@ -1,8 +1,10 @@
 package fr.isep.ji;
 
 public class Employe extends Personne{
+    private int NumeroEmploye;
+    private int DateEmbauche;
 
-    public Employe(int identifiant, String nom, String adresse, String contact) {
-        super(identifiant, nom, adresse, contact);
+    public void obtenirRole(){
+
     }
 }
