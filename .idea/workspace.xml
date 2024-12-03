@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit Message" />
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add Employe.java class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Passager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +132,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733071074106</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Commit Message">
+      <option name="closed" value="true" />
+      <created>1733071118303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071118303</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add Employe.java">
+      <option name="closed" value="true" />
+      <created>1733071182289</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071182289</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add Employe.java class">
+      <option name="closed" value="true" />
+      <created>1733257158232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733257158232</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +164,8 @@
     <MESSAGE value="Add Personne.java class" />
     <MESSAGE value="Commit initial" />
     <MESSAGE value="Commit Message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
+    <MESSAGE value="Add Employe.java" />
+    <MESSAGE value="Add Employe.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Employe.java class" />
   </component>
 </project>
