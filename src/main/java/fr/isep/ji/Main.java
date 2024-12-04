@@ -25,11 +25,11 @@ public class Main {
         employe.obtenirInfos();
         System.out.println("Numéro Employé: " + employe.getNumeroEmploye());
         System.out.println("Date d'Embauche: " + employe.getDateEmbauche());
-        System.out.println("Rôle: " + employe.obtenirRole());
+        System.out.println("Rôle: " + employe.obtenirRole(employe));
 
         // Tester Pilote
         System.out.println("\n=== Tester Pilote ===");
-        Pilote pilote = new Pilote(4, "Charles Lindbergh", "50 rue de l'Aviation, Toulouse", "charles.lindbergh@gmail.com", 2001, "2015-06-20", "LIC12345", 5000);
+        Pilote pilote = new Pilote(4, "Charles Lindbergh", "50 rue de l'Aviation, Toulouse", "charles.lindbergh@gmail.com", "2001", 5000);
         pilote.obtenirInfos();
         System.out.println("Licence: " + pilote.getLicence());
         System.out.println("Heures de Vol: " + pilote.getHeuresDeVol());
@@ -38,11 +38,11 @@ public class Main {
 
         // Tester PersonnelCabine
         System.out.println("\n=== Tester PersonnelCabine ===");
-        PersonnelCabine personnelCabine = new PersonnelCabine(5, "Alice Steward", "60 chemin des Équipages, Bordeaux", "alice.steward@gmail.com", 3001, "2018-09-10", "Qualification A");
+        PersonnelCabine personnelCabine = new PersonnelCabine(5, "Alice Steward", "60 chemin des Équipages, Bordeaux", "alice.steward@gmail.com", "Qualification A");
         personnelCabine.obtenirInfos();
         System.out.println("Qualification: " + personnelCabine.getQualification());
         personnelCabine.affecterVol();
         personnelCabine.obtenirVol();
     }
-    }
+
 }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit Message" />
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit Message">
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Passager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Passager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,7 +196,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733324794122</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Commit Message">
+      <option name="closed" value="true" />
+      <created>1733325077999</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733325077999</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Commit Message">
+      <option name="closed" value="true" />
+      <created>1733327057713</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733327057713</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

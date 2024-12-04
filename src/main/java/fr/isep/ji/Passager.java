@@ -20,11 +20,11 @@ public class Passager extends Personne{
         System.out.println("Vol réservé pour le passager.");
     }
 
-    public void annulerResercation(){
+    public void annulerReservation() {
         System.out.println("Réservation annulée pour le passager.");
     }
 
-    public void obtenirReservation(){
+    public void obtenirReservations() {
         System.out.println("Liste des réservations pour le passager.");
     }
 }

@@ -27,7 +27,7 @@ public class Employe extends Personne{
         this.DateEmbauche = dateEmbauche;
     }
 
-    public String obtenirRole(Employe e){
+    public String obtenirRole(Employe employe){
         if (this instanceof Pilote) {
             return "Pilote";
         } else if (this instanceof PersonnelCabine) {
