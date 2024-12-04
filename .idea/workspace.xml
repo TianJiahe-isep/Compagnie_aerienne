@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Add Employe.java class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Passager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/isep/ji/Personne.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cab88d9-fa98-4e3d-9b26-444d66cb1886" name="Changes" comment="Commit Message" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,16 +152,59 @@
       <option name="project" value="LOCAL" />
       <updated>1733257158232</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Passager.java class">
+      <option name="closed" value="true" />
+      <created>1733258605152</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733258605152</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Pilote.java class">
+      <option name="closed" value="true" />
+      <created>1733265629310</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733265629310</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add PersonnelCabine.java class">
+      <option name="closed" value="true" />
+      <created>1733265801583</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733265801583</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add PersonnelCabine.java class">
+      <option name="closed" value="true" />
+      <created>1733324758063</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733324758063</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Commit Message">
+      <option name="closed" value="true" />
+      <created>1733324794122</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733324794122</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add nouveau.java class" />
     <MESSAGE value="Add Personne.java class" />
     <MESSAGE value="Commit initial" />
-    <MESSAGE value="Commit Message" />
     <MESSAGE value="Add Employe.java" />
     <MESSAGE value="Add Employe.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Employe.java class" />
+    <MESSAGE value="Add Passager.java class" />
+    <MESSAGE value="Add Pilote.java class" />
+    <MESSAGE value="Add PersonnelCabine.java class" />
+    <MESSAGE value="Commit Message" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Message" />
   </component>
 </project>
