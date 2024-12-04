@@ -10,6 +10,7 @@ public class Employe extends Personne{
         this.DateEmbauche = DateEmbauche;
     }
 
+
     public int getNumeroEmploye() {
         return NumeroEmploye;
     }

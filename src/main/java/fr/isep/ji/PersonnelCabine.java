@@ -4,7 +4,7 @@ public class PersonnelCabine extends Employe {
 
     private String qualification;
 
-    public PersonnelCabine(int identifiant, String nom, String adresse, String contact) {
+    public PersonnelCabine(int identifiant, String nom, String adresse, String contact,String qualification) {
         super(identifiant, nom, adresse, contact);
         this.qualification = qualification;
     }

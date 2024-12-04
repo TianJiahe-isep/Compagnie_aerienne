@@ -3,7 +3,7 @@ package fr.isep.ji;
 public class Passager extends Personne{
     private String passeport;
 
-    public Passager(int identifiant, String nom, String adresse, String contact) {
+    public Passager(int identifiant, String nom, String adresse, String contact,String Passeport) {
         super(identifiant, nom, adresse, contact);
         this.passeport = passeport;
     }
