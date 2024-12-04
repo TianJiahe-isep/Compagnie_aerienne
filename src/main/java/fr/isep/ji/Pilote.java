@@ -6,9 +6,9 @@ public class Pilote extends Employe {
     private int heuresDeVol;
 
 
-    public Pilote(int identifiant, String nom, String adresse, String contact,String Licence,int heuresDeVol) {
-        super(identifiant, nom, adresse, contact);
-        this.Licence = Licence;
+    public Pilote(int identifiant, String nom, String adresse, String contact,int numeroEmploye,String dateEmbauche,String licence,int heuresDeVol) {
+        super(identifiant, nom, adresse, contact,numeroEmploye,dateEmbauche);
+        this.Licence = licence;
         this.heuresDeVol = heuresDeVol;
     }
 

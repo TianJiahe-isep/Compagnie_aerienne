@@ -1,15 +1,14 @@
 package fr.isep.ji;
 
 public class Employe extends Personne{
-    private int NumeroEmploye;
-    private String DateEmbauche;
+    private int NumeroEmploye; //工号
+    private String DateEmbauche; //雇用日期
 
-    public Employe( int identifiant, String nom, String adresse, String contact) {
+    public Employe(int identifiant, String nom, String adresse,String contact, int numeroEmploye, String dateEmbauche) {
         super(identifiant, nom, adresse, contact);
-        this.NumeroEmploye = NumeroEmploye;
-        this.DateEmbauche = DateEmbauche;
+        this.NumeroEmploye = numeroEmploye;
+        this.DateEmbauche = dateEmbauche;
     }
-
 
     public int getNumeroEmploye() {
         return NumeroEmploye;
@@ -27,6 +26,7 @@ public class Employe extends Personne{
         this.DateEmbauche = dateEmbauche;
     }
 
+//fonctions
     public String obtenirRole(Employe employe){
         if (this instanceof Pilote) {
             return "Pilote";

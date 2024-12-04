@@ -2,10 +2,10 @@ package fr.isep.ji;
 
 public class Personne {
 
-    private int identifiant;
-    private String nom;
-    private String adresse;
-    private String contact;
+    private int identifiant; //身份证号
+    private String nom; //姓名
+    private String adresse; //地址
+    private String contact; //邮箱或电话
 
     public Personne(int identifiant, String nom, String adresse, String contact){
         this.identifiant = identifiant ;
@@ -14,13 +14,8 @@ public class Personne {
         this.contact = contact;
     }
 
-    public void obtenirInfos(){
-        System.out.println("Identifiant :"+this.identifiant);
-        System.out.println("Nom :"+this.nom);
-        System.out.println("Adresse :"+this.adresse);
-        System.out.println("Contact :"+this.contact);
-    }
 
+//getter et setter
     public int getIdentifiant() {
         return identifiant;
     }
@@ -51,5 +46,13 @@ public class Personne {
 
     public void setContact(String contact) {
         this.contact = contact;
+    }
+
+//fonction
+    public void obtenirInfos(){
+        System.out.println("Identifiant :"+this.identifiant);
+        System.out.println("Nom :"+this.nom);
+        System.out.println("Adresse :"+this.adresse);
+        System.out.println("Contact :"+this.contact);
     }
 }
