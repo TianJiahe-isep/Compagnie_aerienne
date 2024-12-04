@@ -46,7 +46,7 @@ public class Avion {
         this.vol = vol;
     }
 
-    public void afficherVol(){
+    public void affecterVol(){
 
     }
 

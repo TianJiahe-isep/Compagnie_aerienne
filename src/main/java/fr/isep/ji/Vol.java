@@ -15,13 +15,18 @@ public class Vol {
     private ArrayList reservations = new ArrayList();
     private Avion avion;
 
-    public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat){
+    private Aeroport aeroportDepart;
+    private Aeroport aeroportArrivee;
+
+    public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat,Aeroport aeroportDepart,Aeroport aeroportArrivee){
         this.NumeroVol = numeroVol;
         this.Origine = Origine;
         this.Destination = Destination;
         this.DateHeureDepart = DateHeureDepart;
         this.DateHeureArrivee = DateHeureArrivee;
         this.Etat = Etat;
+        this.aeroportDepart = aeroportDepart;
+        this.aeroportArrivee = aeroportArrivee;
     }
 
     //getter et setter
@@ -89,6 +94,23 @@ public class Vol {
         this.avion = avion;
     }
 
+    public Aeroport getAeroportDepart() {
+        return aeroportDepart;
+    }
+
+    public void setAeroportDepart(Aeroport aeroportDepart) {
+        this.aeroportDepart = aeroportDepart;
+    }
+
+    public Aeroport getAeroportArrivee() {
+        return aeroportArrivee;
+    }
+
+    public void setAeroportArrivee(Aeroport aeroportArrivee) {
+        this.aeroportArrivee = aeroportArrivee;
+    }
+
+//fonction
     public void planifierVol(){
 
     }
