@@ -17,5 +17,12 @@ public class PersonnelCabine extends Employe {
         this.qualification = qualification;
     }
 
+    public void affecterVol() {
+        System.out.println("Vol affecté au personnel de cabine.");
+    }
+
+    public void obtenirVol() {
+        System.out.println("Vols assignés au personnel de cabine.");
+    }
 
 }
