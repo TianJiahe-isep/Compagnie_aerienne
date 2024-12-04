@@ -6,6 +6,9 @@ public class Reservation {
     private String dataReservation;
     private String statu;
 
+    private Passager passager;
+    private Vol vol;
+
     public void confirmerReservation(){
 
     }
@@ -40,5 +43,21 @@ public class Reservation {
 
     public void setStatu(String statu) {
         this.statu = statu;
+    }
+
+    public Passager getPassager() {
+        return passager;
+    }
+
+    public void setPassager(Passager passager) {
+        this.passager = passager;
+    }
+
+    public Vol getVol() {
+        return vol;
+    }
+
+    public void setVol(Vol vol) {
+        this.vol = vol;
     }
 }

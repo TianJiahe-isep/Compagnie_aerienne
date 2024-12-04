@@ -12,7 +12,7 @@ public class Vol {
     private String DateHeureArrivee;
     private String Etat;
 
-    private List<String> reservations = new ArrayList<>();
+    private ArrayList reservations = new ArrayList();
     private Avion avion;
 
     public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat){
@@ -73,6 +73,21 @@ public class Vol {
         Etat = etat;
     }
 
+    public ArrayList getReservations() {
+        return reservations;
+    }
+
+    public void setReservations(ArrayList reservations) {
+        this.reservations = reservations;
+    }
+
+    public Avion getAvion() {
+        return avion;
+    }
+
+    public void setAvion(Avion avion) {
+        this.avion = avion;
+    }
 
     public void planifierVol(){
 
