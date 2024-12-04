@@ -6,7 +6,7 @@ package fr.isep.ji;
 public class Main {
     public static void main(String[] args) {
 
-        Personne p = new Personne(11,"loulou","ruedejaques","0000");
+        Personne p = new Personne();
 
         p.obtenirInfos();
     }

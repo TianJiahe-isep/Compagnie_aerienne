@@ -15,10 +15,10 @@ public class Personne {
     }
 
     public void obtenirInfos(){
-        System.out.println(this.identifiant);
-        System.out.println(this.nom);
-        System.out.println(this.adresse);
-        System.out.println(this.contact);
+        System.out.println("Identifiant :"+this.identifiant);
+        System.out.println("Nom :"+this.nom);
+        System.out.println("Adresse :"+this.adresse);
+        System.out.println("Contact :"+this.contact);
     }
 
     public int getIdentifiant() {
