@@ -12,7 +12,7 @@ public class Vol {
     private String DateHeureArrivee;
     private String Etat;
 
-    private List<String> passagers = new ArrayList<>();
+    private List<String> reservations = new ArrayList<>();
 
     public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat){
         this.numeroVol = numeroVol;
@@ -85,7 +85,7 @@ public class Vol {
 
     }
 
-    public void Listing Passager(){
+    public void ListingPassager(){
 
     }
 }
