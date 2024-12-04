@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Vol {
 
-    private int numeroVol;
+    private int NumeroVol;
     private String Origine;
     private String Destination;
     private String DateHeureDepart;
@@ -13,9 +13,10 @@ public class Vol {
     private String Etat;
 
     private List<String> reservations = new ArrayList<>();
+    private Avion avion;
 
     public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat){
-        this.numeroVol = numeroVol;
+        this.NumeroVol = numeroVol;
         this.Origine = Origine;
         this.Destination = Destination;
         this.DateHeureDepart = DateHeureDepart;
@@ -25,11 +26,11 @@ public class Vol {
 
     //getter et setter
     public int getNumeroVol() {
-        return numeroVol;
+        return NumeroVol;
     }
 
     public void setNumeroVol(int numeroVol) {
-        this.numeroVol = numeroVol;
+        this.NumeroVol = numeroVol;
     }
 
     public String getOrigine() {
