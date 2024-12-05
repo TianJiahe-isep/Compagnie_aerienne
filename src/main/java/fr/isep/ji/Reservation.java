@@ -1,48 +1,52 @@
 package fr.isep.ji;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Reservation {
 
     private int numeroReservation;
-    private String dataReservation;
-    private String statu;
+    private String dateReservation;
+    private String statut;
 
     private Passager passager;
     private Vol vol;
 
-    public void confirmerReservation(){
+    private List<Reservation> reservations = new ArrayList<>();
 
+    public Reservation(int numeroReservation, String dateReservation, String statut, Passager passager, Vol vol) {
+        this.numeroReservation = numeroReservation;
+        this.dateReservation = dateReservation;
+        this.statut = statut;
+        this.passager = passager;
+        this.vol = vol;
+        reservations.add(this); // Ajouter la nouvelle reservation dans le liste
     }
 
-    public void annulerReservation(){
-
-    }
-
-    public void modifierRservation(){
-
-    }
 
     public int getNumeroReservation() {
         return numeroReservation;
     }
 
+
     public void setNumeroReservation(int numeroReservation) {
         this.numeroReservation = numeroReservation;
     }
 
-    public String getDataReservation() {
-        return dataReservation;
+    public String getDateReservation() {
+        return dateReservation;
     }
 
-    public void setDataReservation(String dataReservation) {
-        this.dataReservation = dataReservation;
+    public void setDateReservation(String dateReservation) {
+        this.dateReservation = dateReservation;
     }
 
-    public String getStatu() {
-        return statu;
+    public String getStatut() {
+        return statut;
     }
 
-    public void setStatu(String statu) {
-        this.statu = statu;
+    public void setStatut(String statut) {
+        this.statut = statut;
     }
 
     public Passager getPassager() {
@@ -60,4 +64,37 @@ public class Reservation {
     public void setVol(Vol vol) {
         this.vol = vol;
     }
+
+    public void confirmerReservation(int numeroReservation) {
+        for (Reservation reservation : reservations) {
+            if (reservation.getNumeroReservation() == numeroReservation) {
+                reservation.setStatut("Confirmée");
+                System.out.println("Le numero de reservation ： " + numeroReservation + " est confirmé.");
+                return;
+            }
+        }
+    }
+
+    public void annulerReservation() {
+        for (Reservation reservation : reservations) {
+            if (reservation.getNumeroReservation() == numeroReservation) {
+                reservation.setStatut("Annulée");
+                System.out.println("Le numéro de réservation " + numeroReservation + " est annulé.");
+                return;
+            }
+        }
+        System.out.println("Réservation avec le numéro " + numeroReservation + " introuvable.");
+    }
+
+    public void modifierReservation(int numeroReservation, Vol vol) {
+        for (Reservation reservation : reservations) {
+            if (reservation.getNumeroReservation() == numeroReservation) {
+                reservation.setVol(vol);
+                System.out.println("La réservation " + numeroReservation + " a été modifiée pour le vol " + vol.getNumeroVol());
+                return;
+            }
+        }
+        System.out.println("Réservation avec le numéro " + numeroReservation + " introuvable.");
+    }
+
 }

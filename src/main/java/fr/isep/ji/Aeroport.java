@@ -59,7 +59,13 @@ public class Aeroport {
     }
 
 
-    public void affecterVol(){
-
+    public void affecterVol(Vol vol, boolean isDepart){
+        if (isDepart) {
+            volsDepart.add(vol);
+            System.out.println("Le vol " + vol.getNumeroVol() + " a été affecté comme vol de départ.");
+        } else {
+            volsArrivee.add(vol);
+            System.out.println("Le vol " + vol.getNumeroVol() + " a été affecté comme vol d'arrivée.");
+        }
     }
 }

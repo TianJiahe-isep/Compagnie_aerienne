@@ -12,14 +12,14 @@ public class Vol {
     private String DateHeureArrivee;
     private String Etat;
 
-    private ArrayList reservations = new ArrayList();
+    private ArrayList<String> reservations = new ArrayList<>();
     private Avion avion;
 
     private Aeroport aeroportDepart;
     private Aeroport aeroportArrivee;
 
-    public Vol(int numeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat,Aeroport aeroportDepart,Aeroport aeroportArrivee){
-        this.NumeroVol = numeroVol;
+    public Vol(int NumeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat,Aeroport aeroportDepart,Aeroport aeroportArrivee){
+        this.NumeroVol = NumeroVol;
         this.Origine = Origine;
         this.Destination = Destination;
         this.DateHeureDepart = DateHeureDepart;
@@ -78,11 +78,11 @@ public class Vol {
         Etat = etat;
     }
 
-    public ArrayList getReservations() {
+    public ArrayList<String> getReservations() {
         return reservations;
     }
 
-    public void setReservations(ArrayList reservations) {
+    public void setReservations(ArrayList<String> reservations) {
         this.reservations = reservations;
     }
 
@@ -112,18 +112,23 @@ public class Vol {
 
 //fonction
     public void planifierVol(){
-
+        System.out.println("Le vol " + NumeroVol + " a été planifié.");
     }
 
     public void annulerVol(){
-
+        System.out.println("Le vol " + NumeroVol + " a été annulé.");
     }
 
-    public void modifierVol(){
-
+    public void modifierVol(String nouvelleOrigine, String nouvelleDestination) {
+        this.Origine = nouvelleOrigine;
+        this.Destination = nouvelleDestination;
+        System.out.println("Le vol " + NumeroVol + " a été modifié.");
     }
 
     public void ListingPassager(){
-
+        System.out.println("Liste des passagers du vol " + NumeroVol + ":");
+        for (String reservation : reservations) {
+            System.out.println("- " + reservation);
+        }
     }
 }

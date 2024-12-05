@@ -1,13 +1,13 @@
 package fr.isep.ji;
 
 import java.util.ArrayList;
-//import java.util.List;
+import java.util.List;
 
 public class Passager extends Personne{
 
     private String passeport;
 
-    private ArrayList reservations = new ArrayList();
+    private List<Reservation> reservations;
     public Passager(int identifiant, String nom, String adresse, String contact,String passeport) {
         super(identifiant, nom, adresse, contact);
         this.passeport = passeport;
@@ -21,8 +21,15 @@ public class Passager extends Personne{
         this.passeport = passeport;
     }
 
-    public void reserverVol(){
-        System.out.println("Vol réservé pour le passager.");
+    public void reserverVol(int numeroReservation,String dateReservation, String statut,Vol vol){
+        Reservation reservation = new Reservation();
+        reservation.setNumeroReservation(numeroReservation);
+        reservation.setDataReservation(dateReservation);
+        reservation.setStatut(statut);
+        reservation.setPassager(this);
+        reservation.setVol(vol);
+        reservations.add(reservation);
+        System.out.println("Vol"+ vol.getNumeroVol()+"réservée.");
     }
 
     public void annulerReservation() {
