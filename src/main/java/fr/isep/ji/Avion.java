@@ -64,6 +64,9 @@ public class Avion {
 
     public boolean verifierDisponibilite(String dateHeureDepart, String dateHeureArrivee) {
 
+        if (this.vol == null) {
+            return true;
+        }
         boolean conflit = !(dateHeureArrivee.compareTo(this.vol.getDateHeureDepart()) <= 0 ||
                 dateHeureDepart.compareTo(this.vol.getDateHeureArrivee()) >= 0);
 
