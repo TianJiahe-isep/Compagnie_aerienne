@@ -7,38 +7,38 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        Aeroport aeroportDepart = new Aeroport("CDG", "Paris", "Charles de Gaulle Airport");
-        Aeroport aeroportArrivee = new Aeroport("JFK", "New York", "John F. Kennedy International Airport");
+        Aeroport aeroportDepart = new Aeroport("CDG", "Paris", "Aéroport Charles de Gaulle");
+        Aeroport aeroportArrivee = new Aeroport("NCE", "Nice", "Aéroport Nice Côte d'Azur");
 
         // Création des avions
-        Avion avion1 = new Avion("AB123", "Boeing 737", 180);
-        Avion avion2 = new Avion("CD456", "Airbus A320", 150);
+        Avion avion1 = new Avion("FR123", "Airbus A320", 180);
+        Avion avion2 = new Avion("FR456", "Airbus A350", 300);
         List<Avion> avionsDisponibles = new ArrayList<>();
         avionsDisponibles.add(avion1);
         avionsDisponibles.add(avion2);
 
         // Création d'un vol
-        Vol vol1 = new Vol(101, "Paris", "New York", "2024-12-01T10:00", "2024-12-01T14:00", "En attente", aeroportDepart, aeroportArrivee);
+        Vol vol1 = new Vol(101, "Paris", "Nice", "2024-12-15T09:00", "2024-12-15T10:30", "En attente", aeroportDepart, aeroportArrivee);
         aeroportDepart.affecterVol(vol1, true);
 
         // Affectation d'un avion au vol
         avion1.affecterVol(vol1, avionsDisponibles);
 
         // Création des employés
-        Pilote pilote = new Pilote(1, "Jean", "123 Rue Main", "jean@mail.com", 201, "2020-01-01", "P12345", 5000);
-        PersonnelCabine personnelCabine = new PersonnelCabine(2, "Marie", "456 Rue Park", "marie@mail.com", 202, "2019-06-01", "Safety Specialist");
+        Pilote pilote = new Pilote(1, "Jean Dupont", "12 Rue Lafayette", "jean.dupont@mail.fr", 201, "2015-01-01", "FRA123", 4500);
+        PersonnelCabine personnelCabine = new PersonnelCabine(2, "Marie Curie", "34 Boulevard Haussmann", "marie.curie@mail.fr", 202, "2018-03-15", "Spécialiste de la sécurité");
 
-        // Affectation du pilote et du personnel au vol
+        // Affectation du personnel au vol
         vol1.setPilote(pilote);
         vol1.getEquipeCabine().add(personnelCabine);
 
         // Création d'un passager et réservation d'un vol
-        Passager passager = new Passager(3, "Alice", "789 Rue Ocean", "alice@mail.com", "PA67890");
-        passager.reserverVol(1, "2024-11-30", "Confirmée", vol1);
+        Passager passager = new Passager(3, "Jacques Martin", "56 Avenue des Champs-Élysées", "jacques.martin@mail.fr", "FR987654");
+        passager.reserverVol(1, "2024-12-01", "Confirmée", vol1);
 
-        // Affichage des informations
+        // Affichage des informations du vol
         System.out.println("=== Informations du vol ===");
-        System.out.println("Vol numéro: " + vol1.getNumeroVol());
+        System.out.println("Numéro du vol: " + vol1.getNumeroVol());
         System.out.println("Origine: " + vol1.getOrigine());
         System.out.println("Destination: " + vol1.getDestination());
         System.out.println("Pilote: " + vol1.getPilote().getNom());
@@ -52,7 +52,7 @@ public class Main {
 
         // Modification des informations du vol
         System.out.println("\n=== Modification du vol ===");
-        vol1.modifierVol("Paris", "Chicago");
+        vol1.modifierVol("Paris", "Marseille");
         System.out.println("Nouvelle destination: " + vol1.getDestination());
     }
 
