@@ -18,6 +18,9 @@ public class Vol {
     private Aeroport aeroportDepart;
     private Aeroport aeroportArrivee;
 
+    private Pilote pilote;
+    private List<PersonnelCabine> equipeCabine = new ArrayList<>();
+
     public Vol(int NumeroVol,String Origine,String Destination,String DateHeureDepart,String DateHeureArrivee,String Etat,Aeroport aeroportDepart,Aeroport aeroportArrivee){
         this.NumeroVol = NumeroVol;
         this.Origine = Origine;
@@ -110,13 +113,39 @@ public class Vol {
         this.aeroportArrivee = aeroportArrivee;
     }
 
-//fonction
-    public void planifierVol(){
-        System.out.println("Le vol " + NumeroVol + " a été planifié.");
+    public Pilote getPilote() {
+        return pilote;
     }
 
-    public void annulerVol(){
-        System.out.println("Le vol " + NumeroVol + " a été annulé.");
+    public void setPilote(Pilote pilote) {
+        this.pilote = pilote;
+    }
+
+    public List<PersonnelCabine> getEquipeCabine() {
+        return equipeCabine;
+    }
+
+    public void setEquipeCabine(List<PersonnelCabine> equipeCabine) {
+        this.equipeCabine = equipeCabine;
+    }
+
+//fonction
+    public void planifierVol(List<Vol> vols){
+        System.out.println("Planification des vols pour la journée :");
+        for (Vol vol : vols) {
+            vol.setEtat("Planifié");
+            System.out.println("- Vol " + vol.getNumeroVol() + " de " + vol.getOrigine() + " à " + vol.getDestination());
+        }
+    }
+
+    public void annulerVol(int numeroVol){
+        if (this.NumeroVol == numeroVol) {
+            this.Etat = "Annulé";
+            System.out.println("Le vol " + numeroVol + " a été annulé.");
+        }
+        else {
+            System.out.println("Aucun vol trouvé avec le numéro : " + numeroVol);
+        }
     }
 
     public void modifierVol(String nouvelleOrigine, String nouvelleDestination) {

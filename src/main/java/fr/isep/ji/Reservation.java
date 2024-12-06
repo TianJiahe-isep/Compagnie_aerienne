@@ -14,7 +14,7 @@ public class Reservation {
 
     private List<Reservation> reservations = new ArrayList<>();
 
-    public Reservation(int numeroReservation, String dateReservation, String statut, Passager passager, Vol vol) {
+    public Reservation() {
         this.numeroReservation = numeroReservation;
         this.dateReservation = dateReservation;
         this.statut = statut;
@@ -66,13 +66,7 @@ public class Reservation {
     }
 
     public void confirmerReservation(int numeroReservation) {
-        for (Reservation reservation : reservations) {
-            if (reservation.getNumeroReservation() == numeroReservation) {
-                reservation.setStatut("Confirmée");
-                System.out.println("Le numero de reservation ： " + numeroReservation + " est confirmé.");
-                return;
-            }
-        }
+        System.out.println("Le numero de reservation ： " + numeroReservation + " est confirmé.");
     }
 
     public void annulerReservation() {

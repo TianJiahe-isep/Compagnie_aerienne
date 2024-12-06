@@ -59,8 +59,8 @@ public class Aeroport {
     }
 
 
-    public void affecterVol(Vol vol, boolean isDepart){
-        if (isDepart) {
+    public void affecterVol(Vol vol, boolean depart){
+        if (depart) {
             volsDepart.add(vol);
             System.out.println("Le vol " + vol.getNumeroVol() + " a été affecté comme vol de départ.");
         } else {

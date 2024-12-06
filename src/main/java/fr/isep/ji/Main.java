@@ -8,7 +8,6 @@ public class Main {
         Aeroport aeroportParis = new Aeroport("Charles de Gaulle", "Paris", "Principal aéroport de Paris");
         Aeroport aeroportNewYork = new Aeroport("JFK", "New York", "Aéroport de New York");
 
-        // 创建航班
         Vol vol = new Vol(101, "Paris", "New York", "2024-12-10T10:30", "2024-12-10T14:30", "Scheduled", aeroportParis, aeroportNewYork);
 
         // 分配航班到机场
